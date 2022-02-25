@@ -1,0 +1,17 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":3,
+    "params":{
+      "q":"txt_pergunta:aluno",
+      "indent":"true",
+      "q.op":"OR"}},
+  "response":{"numFound":1,"start":0,"numFoundExact":true,"docs":[
+      {
+        "id":"1",
+        "materia":["Física"],
+        "categoria":["Cinemática"],
+        "txt_pergunta":["(EFOA-MG) Um aluno, sentado na carteira da sala, observa os colegas, também sentados nas respectivas carteiras, bem como um mosquito que voa perseguindo o professor que fiscaliza a prova da turma.\nDas alternativas abaixo, a única que retrata uma análise correta do aluno é: <br>\na) A velocidade de todos os meus colegas é nula para todo observador na superfície da Terra.<br>\nb) Eu estou em repouso em relação aos meus colegas, mas nós estamos em movimento em relação a\ntodo observador na superfície da Terra. <br>\nc) Como não há repouso absoluto, não há nenhum referencial em relação ao qual nós, estudantes, estejamos em repouso. <br>\nd) A velocidade do mosquito é a mesma, tanto em relação ao meus colegas, quanto em relação ao professor.<br>\ne) Mesmo para o professor, que não pára de andar pela sala, seria possível achar um referencial em relação ao qual ele estivesse em repouso."],
+        "txt_resposta":["Alteranativa E"],
+        "_version_":1725385743655763968}]
+  }}
