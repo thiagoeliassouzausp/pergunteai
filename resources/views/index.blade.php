@@ -6,7 +6,7 @@
 
        
         <meta name="description" content="" />
-        <meta name="author" content="<?php echo $_ENV['DESCRICAO']?>" />
+        <meta name="author" content="Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos" />
         <title>Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos
         </title>
         <!-- Favicon-->
