@@ -6,8 +6,8 @@
 
        
         <meta name="description" content="" />
-        <meta name="author" content="FisicaLab - Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos" />
-        <title>Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos
+        <meta name="author" content="Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos" />
+        <title>FisicaLab - Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos
         </title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
