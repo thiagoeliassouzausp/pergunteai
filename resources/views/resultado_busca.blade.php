@@ -16,7 +16,7 @@ if (isset($resultado))
                                 {
                                     foreach ($pergunta as $data) 
                                     {
-                                        echo "<p h2><a href=/exercicios?$data->id>";
+                                        echo "<p h2><a href=/exercicios?id=$data->id>";
                                         echo $data->txt_pergunta[0];
                                         echo "</a></p>";
                                     }

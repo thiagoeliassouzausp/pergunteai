@@ -4,7 +4,7 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">Digite o que você procura</h1>
+                            <h1 class="mb-5">O que você procura?</h1>
                             
                             <!-- Signup form-->
                             <!-- * * * * * * * * * * * * * * *-->
@@ -18,9 +18,8 @@
                                 <!-- Email address input-->
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control form-control-lg" id="campoBusca" type="text" placeholder="Digite o texto aqui" data-sb-validations="required,text" />
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                                        <input class="form-control form-control-lg" id="campoBusca" type="text"  name="campoBusca" placeholder="Digite o texto aqui" data-sb-validations="required,text" />
+                                       
                                     </div>
                                     <div class="col-auto"><button class="btn btn-primary btn-lg " id="submitButton" type="submit">Buscar</button></div>
                                 </div>

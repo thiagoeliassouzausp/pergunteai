@@ -20,11 +20,11 @@
 
         <script>
             function abrirModal() {
-                alert('abriu');
+                //alert('abriu');
                 document.getElementById('modal').style.top = "0";
             }
             function fecharModal() {
-                alert('fechou');
+                //alert('fechou');
                 document.getElementById('modal').style.top = "-100%";
             }
 
@@ -35,8 +35,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">Oráculo da Física</a>
-                <a class="btn btn-primary" href="#signup">Entrar</a>
+                <a class="navbar-brand" href="#!">Pergunte Ai</a>
+                <!-- <a class="btn btn-primary" href="#signup">Entrar</a> -->
             </div>
         </nav>
         <!-- Masthead-->
@@ -52,6 +52,7 @@
                                         echo "<p h2><a href=/exercicios?$data->id>";
                                         echo $data->txt_pergunta[0];
                                         echo "</a></p>";
+                                        $img_resposta = $data->img_resposta[0];
                                     }
                                 ?>
                         </div>
@@ -71,6 +72,10 @@
                     <div>
                         RESPOSTA
                     </div>
+                    <div>
+                        <img src="../assets/img_resposta/<?=$img_resposta?>">
+                    </div>
+                    
             </div>
             </div>  
             

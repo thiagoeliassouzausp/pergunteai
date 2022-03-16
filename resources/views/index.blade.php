@@ -23,8 +23,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">Oráculo da Física</a>
-                <a class="btn btn-primary" href="#signup">Entrar</a>
+                <a class="navbar-brand" href="#!">Pergunte Ai</a>
+                <!-- <a class="btn btn-primary" href="#signup">Entrar</a> -->
             </div>
         </nav>
         <!-- Masthead-->

@@ -6,18 +6,26 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Http\Request;
+use Illuminate\Http\Input;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function busca() {
-
-        $code = file_get_contents('select.json');
+    public function busca( Request $request ) {
+        
+        //$param = $request->campoBusca;
+        $param = $_GET['campoBusca'];
+        
+        //$code = file_get_contents('select.json');
+        $code = file_get_contents('http://fisicalab.com.br:8983/solr/pergunteai2/select?indent=true&q.op=OR&q=txt_pergunta%3A' . $param . '&rows=100');
         
         $data = json_decode($code);
                             
         $resultado = $data->response->numFound;
+
+        
         if ($resultado>0)
             {
                 $pergunta = $data->response->docs;
@@ -30,6 +38,10 @@ class Controller extends BaseController
                     //echo $data->txt_resposta[0];
                 }
             }
+        else {
+            $pergunta = "";
+            $resultado = 0;
+        }
             
             
             return view('index')
@@ -40,7 +52,13 @@ class Controller extends BaseController
 
     public function exercicios() {
 
+
+        $param = $_GET['id'];
+        
+
         $code = file_get_contents('select.json');
+        $code = file_get_contents('http://fisicalab.com.br:8983/solr/pergunteai2/select?indent=true&q.op=OR&q=id%3A' . $param . '&rows=1');
+        
         
         $data = json_decode($code);
                             
