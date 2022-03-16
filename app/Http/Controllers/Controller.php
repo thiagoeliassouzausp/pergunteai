@@ -16,7 +16,8 @@ class Controller extends BaseController
     public function busca( Request $request ) {
         
         //$param = $request->campoBusca;
-        $param = $_GET['campoBusca'];
+        $param = urlencode( $_GET['campoBusca'] );
+        echo $param;
         
         //$code = file_get_contents('select.json');
         $code = file_get_contents('http://fisicalab.com.br:8983/solr/pergunteai2/select?indent=true&q.op=OR&q=txt_pergunta%3A' . $param . '&rows=100');
