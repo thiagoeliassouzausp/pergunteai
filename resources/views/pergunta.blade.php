@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4_1">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3"><h2>
                                 <?php
                                     foreach ($pergunta as $data) 
                                     {
@@ -54,7 +54,7 @@
                                         echo "</a></p>";
                                         $img_resposta = $data->img_resposta[0];
                                     }
-                                ?>
+                                ?></h2>
                         </div>
                     </div>
                     

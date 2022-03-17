@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 Route::get('/busca', 'App\Http\Controllers\Controller@busca');
 
-Route::get('/exercicios', 'App\Http\Controllers\Controller@exercicios');
+Route::get('/pergunta', 'App\Http\Controllers\Controller@exercicios');
 
