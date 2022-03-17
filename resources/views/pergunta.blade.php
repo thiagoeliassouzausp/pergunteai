@@ -49,7 +49,7 @@
                                 <?php
                                     foreach ($pergunta as $data) 
                                     {
-                                        echo "<p h2><a href=/exercicios?$data->id>";
+                                        echo "<p>";
                                         echo $data->txt_pergunta[0];
                                         echo "</a></p>";
                                         $img_resposta = $data->img_resposta[0];
