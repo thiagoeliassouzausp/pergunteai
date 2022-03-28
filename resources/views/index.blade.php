@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-    <link rel="shortcut icon" href="../assets/img_resposta/favicon_fisica.ico">
+   
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -10,9 +10,10 @@
         <meta name="author" content="Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos" />
         <title>FisicaLab - Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos
         </title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
+
+        <link rel="icon" type="image/x-icon" href="/assets/if-favicon.png">
+        <link rel = "shortcut icon" type = "imagem/x-icon" href = "/assets/if-favicon.png"/>
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
