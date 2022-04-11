@@ -20,7 +20,7 @@ class Controller extends BaseController
         
         
         //$code = file_get_contents('select.json');
-        $code = file_get_contents('http://fisicalab.com.br:8983/solr/pergunteai2/select?indent=true&q.op=OR&q=txt_pergunta%3A' . $param . '&rows=100');
+        $code = file_get_contents('http://18.228.93.24:8983/solr/pergunteai2/select?indent=true&q.op=OR&q=txt_pergunta%3A' . $param . '&rows=100');
         
         $data = json_decode($code);
                             
@@ -57,8 +57,8 @@ class Controller extends BaseController
         $param = $_GET['id'];
         
 
-        $code = file_get_contents('select.json');
-        $code = file_get_contents('http://fisicalab.com.br:8983/solr/pergunteai2/select?indent=true&q.op=OR&q=id%3A' . $param . '&rows=1');
+        //$code = file_get_contents('select.json');
+        $code = file_get_contents('http://18.228.93.24:8983/solr/pergunteai2/select?indent=true&q.op=OR&q=id%3A' . $param . '&rows=1');
         
         
         $data = json_decode($code);
