@@ -47,7 +47,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">Pergunte Ai</a>
+                <a class="navbar-brand" href="http://www.pergunteai.com.br">Pergunte Ai</a>
                 <!-- <a class="btn btn-primary" href="#signup">Entrar</a> -->
             </div>
         </nav>

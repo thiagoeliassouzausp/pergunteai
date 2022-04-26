@@ -19,7 +19,7 @@
        
         <meta name="description" content="" />
         <meta name="author" content="Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos" />
-        <title>FisicaLab - Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos
+        <title>Pergunteai - Resolução de questões de física e ciências exatas, problemas resolvidos e questões de vestibulares ENEM FUVEST e concursos públicos
         </title>
 
         <link rel="icon" type="image/x-icon" href="/assets/if-favicon.png">
@@ -36,7 +36,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">Pergunte Ai</a>
+                <a class="navbar-brand" href="http://www.pergunteai.com.br">Pergunte Ai</a>
                 <!-- <a class="btn btn-primary" href="#signup">Entrar</a> -->
             </div>
         </nav>
