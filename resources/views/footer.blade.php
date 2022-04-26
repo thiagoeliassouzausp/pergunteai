@@ -24,7 +24,7 @@
                                 <a href="#!"><i class="bi-twitter fs-3"></i></a>
                             </li>-->
                             <li class="list-inline-item">
-                                <a href="thiagoelias.souza@usp.br"><i class="bi bi-envelope"></i></a>
+                                <a href="mailto:thiagoelias.souza@usp.br"><i class="bi bi-envelope"></i></a>
                             </li>
                         </ul>
                     </div>
