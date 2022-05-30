@@ -11,8 +11,9 @@
 
         gtag('config', 'UA-190128066-1');
         </script>
-
-   
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1966866960738653"
+        crossorigin="anonymous"></script>
+        
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
